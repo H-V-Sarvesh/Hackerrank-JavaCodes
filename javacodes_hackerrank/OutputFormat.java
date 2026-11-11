@@ -1,8 +1,9 @@
-import java.util.*;
+package javacodes_hackerrank;
 
-public class OutputPattern {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+import java.util.*;
+public class OutputFormat {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
         System.out.println("================================");
         
         for(int i = 0; i < 3; i++) {
@@ -16,5 +17,5 @@ public class OutputPattern {
         
         System.out.println("================================");
         sc.close();
-    }
+  }
 }
